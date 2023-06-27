@@ -1,0 +1,27 @@
+* {
+  margin: auto;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Inter";
+}
+
+.nav-barre {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo-img {
+  width: 4rem;
+  height: 2.5rem;
+}
+li {
+  list-style: none;
+}
+.nav-text {
+  display: flex;
+  gap: 40px;
+  font-size: 15px;
+  color: hsl(236, 13%, 42%);
+}
